@@ -1,0 +1,22 @@
+@font-face {font-family: 'DancingScript-Bold';
+  src: url('DancingScript-Bold.otf');}
+  /*estilos de fuente*/
+  body {font-family: 'DancingScript-Bold';
+        font-size: 1.2em;}
+  h1 {text-shadow: 2px 2px #02010a;
+     color: white;}
+  a {color: white;}
+  /*estilos de caja*/
+  body {background-color: #02010a; width: 900px; margin: 0 auto;}
+  header {background-color: #5b7989;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         border-radius: 10px 10px 0 0; padding: 10px;}
+  img {box-shadow: 2px 2px #02010a;}
+  figure {margin: 0px;}
+  .contenido {background-color: #d5c75f; width: 900px; display: flex;
+             justify-content: space-around;}
+  figure[id] {display: flex; flex-direction: column; align-items: center;
+             width: 300px;}
+  figure[id] img {margin: 10%;}

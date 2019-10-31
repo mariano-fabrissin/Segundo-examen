@@ -1,0 +1,5 @@
+.ppal {height: 400px; display: flex; justify-content: center;
+       background-color: #82c3a6; margin: 0px;}
+.secundario {display: flex; margin: 0px; justify-content: space-around;}
+.content {background-color: #d5c75f; width: 900px;}
+img[src$='ppal.jpg'] {width: 70%; align-self: center;}
