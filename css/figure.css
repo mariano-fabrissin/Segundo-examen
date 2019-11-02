@@ -1,8 +1,9 @@
 .ppal {display: flex; justify-content: center;
        background-color: #82c3a6; margin: 0px;}
-.secundario {display: flex; margin: 0px; justify-content: space-around;}
-.secundario img {width: 35%; margin-top: 2%; margin-bottom: 2%;}
+.secundario { width: 100%; display: flex; flex-direction: column; margin: 0px; align-items: center;}
+.secundario img {width: 70%; margin-top: 2%; margin-bottom: 2%;}
 .content {background-color: #d5c75f; width: 900px;}
+.content2 {display: flex;}
 img[src$='ppal.jpg'] {width: 65%; align-self: center; margin-top: 2%;
                       margin-bottom: 2%;}
 /*efectos de imagen*/
