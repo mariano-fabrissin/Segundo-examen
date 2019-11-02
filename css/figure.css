@@ -1,5 +1,10 @@
-.ppal {height: 400px; display: flex; justify-content: center;
+.ppal {display: flex; justify-content: center;
        background-color: #82c3a6; margin: 0px;}
 .secundario {display: flex; margin: 0px; justify-content: space-around;}
+.secundario img {width: 35%; margin-top: 2%; margin-bottom: 2%;}
 .content {background-color: #d5c75f; width: 900px;}
-img[src$='ppal.jpg'] {width: 70%; align-self: center;}
+img[src$='ppal.jpg'] {width: 65%; align-self: center; margin-top: 2%;
+                      margin-bottom: 2%;}
+/*efectos de imagen*/
+img[alt$='paisaje'] {transition-duration: 1s;}
+img[alt$='paisaje']:hover {transform: rotate(10deg); box-shadow: 2px 2px #82c3a6;}
