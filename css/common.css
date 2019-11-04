@@ -1,28 +1,29 @@
 @font-face {font-family: 'DancingScript-Bold';
   src: url('DancingScript-Bold.otf');}
   /*estilos de fuente*/
-  body {font-family: 'DancingScript-Bold';
-        font-size: 1.2em;}
+  body {font-family: 'DancingScript-Bold'; font-size: 1.2em;
+       background-color: #02010a; width: 900px; margin: 0 auto;}
   h1 {text-shadow: 2px 2px #02010a;
      color: white;}
   a {color: white;}
   /*estilos de caja*/
-  body {background-color: #02010a; width: 900px; margin: 0 auto;}
   header {background-color: #5b7989; display: flex; justify-content: space-between;
-         align-items: center; border-radius: 10px 10px 0 0; padding: 10px;
-         margin-top: 0px; animation: sliden 1s;}
+         align-items: center; border-radius: 10px 10px 0 0;
+        width: 100%; margin-top: 0px; animation: sliden 1s;}
   img {box-shadow: 2px 2px #02010a;}
   figure {margin: 0px;}
-  .contenido {background-color: #d5c75f; width: 900px; display: flex;
+  .contenido {background-color: #d5c75f; width: 100%; display: flex;
              justify-content: space-around;}
-  figure[id] {display: flex; flex-direction: column; align-items: center;
-             width: 300px;}
-  figure[id] img {margin: 10%;}
+  figure[id] {display: flex; flex-flow: row wrap; justify-content: space-around; width: 100%;}
+  figure[id] img {margin: 2%;}
   footer {margin-bottom: 0px; background-color: #C6d5c5; border-radius: 0 0 10px 10px;
           display: flex; width: 100%; justify-content: space-around;}
   .pie {width: 20%; margin: 0px; display: flex; flex-direction: column; align-items: center;}
   .pie h2, p {margin: 1%;}
   /*animaciones*/
+  .contenido img[src$='3.jpg'] {-webkit-filter: sepia(90%); filter: sepia(90%);}
+  .contenido img[src$='1.jpg'] {-webkit-filter: blur(10px); filter: blur(10px);}
+  .contenido img:nth-child(even) {-webkit-filter: grayscale(100%); filter:grayscale(100%);}
   @-webkit-keyframes sliden {0% {margin-top: 150%;}
                             60% {margin-top: -5%;}
                             100% {margin-top: 0%;}}
